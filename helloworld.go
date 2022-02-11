@@ -7,10 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World Emoji!")
 
-	emoji.Println(":beer: Beer!!!")
-
-	pizzaMessage := emoji.Sprint("I like a :pizza: and :sushi:!!")
-	fmt.Println(pizzaMessage)
+	worldMessage := emoji.Sprint("Hello :world_map:!")
+	fmt.Println(worldMessage)
 }
