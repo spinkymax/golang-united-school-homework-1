@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/kyokomi/emoji/v2"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
 
+	worldMessage := emoji.Sprint("Hello :world_map:!")
+	fmt.Println(worldMessage)
 }
